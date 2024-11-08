@@ -26,8 +26,8 @@ type HTTPResponseBuilder[
 // Returns:
 //   - *HTTPResponseBuilder: A new instance of HTTPResponseBuilder with default success status.
 func HTTPResponse[
-	D any,
 	C int | string,
+	D any,
 	E map[string]any,
 	T int | uint | int8 | uint8 | int16 | uint16 | int32 | uint32 | int64 | uint64,
 ]() *HTTPResponseBuilder[C, D, E, T] {

@@ -43,7 +43,7 @@ func TestSetMessage(t *testing.T) {
 
 // TestSetCode verifies manual setting of the Code field.
 func TestSetCode(t *testing.T) {
-	builder := httpresponse.HTTPResponse[string, int, map[string]interface{}, int]()
+	builder := httpresponse.HTTPResponse[int, string, map[string]interface{}, int]()
 	code := 200
 	builder.SetCode(code)
 	options := buildOptions(builder)

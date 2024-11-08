@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/zeroxsolutions/go-rps/internal/rpsutil"
+	"github.com/zeroxsolutions/go-rps/rpsutil"
 )
 
 // MockLister is a mock implementation of the Lister interface for testing purposes.
